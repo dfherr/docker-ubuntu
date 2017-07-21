@@ -6,7 +6,7 @@ MAINTAINER Dennis-Florian Herr <herrdeflo@gmail.com>
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update -qq -y; \
     apt-get install --assume-yes apt-utils; \
-    apt-get install --no-install-recommends -y \
+    apt-get install -y \
     sudo \
     curl \
     iputils-ping \

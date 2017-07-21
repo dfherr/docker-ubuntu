@@ -34,7 +34,7 @@ RUN useradd -m -s /bin/bash ubuntu; \
 
 ADD bin/dumb-init_1.2.0 /usr/local/bin/dumb-init
 RUN chmod +x /usr/local/bin/dumb-init
-ENV DUMB_INIT_SETSID="0" HOME=""/home/ubuntu"
+ENV DUMB_INIT_SETSID="0" HOME="/home/ubuntu"
 
 WORKDIR    /home/ubuntu
 USER       ubuntu

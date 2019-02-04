@@ -1,5 +1,5 @@
 REPO ?= dfherr/ubuntu
-TAG  ?= 16.04
+TAG  ?= 18.04
 
 all: build push
 
